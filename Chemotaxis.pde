@@ -1,11 +1,11 @@
-PImage image;
+//PImage image;
 PImage swatter;
 PImage grossfly;
 Bee[] bob;
 void setup() {
   size(500, 500);
   bob = new Bee[50];
-  image = loadImage("bee.png");
+ // image = loadImage("bee.png");
   swatter = loadImage("swatter.png");
   grossfly = loadImage("disgustingfly.png");
   for (int i = 0; i < bob.length; i++) {
@@ -46,7 +46,7 @@ class Bee {
     if (mousePressed) {
    x = (int)(Math.random()*500);
     y = (int)(Math.random()*500);
-      grossfly = image;
+    //  grossfly = image;
     }
   }
 
